@@ -155,7 +155,8 @@ if($settings->track_guest == 1 && $user->isLoggedIn()){
 <script src="/chimehack4/tinymce/jquery.tinymce.min.js"></script>
 <script type="text/javascript">
   tinymce.init({
-    selector: '#mytextarea'
+    selector: '#mytextarea',
+    height : 600
   });
 </script>
 

@@ -61,7 +61,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/navigation.php';
 	  </div>
 	</div>
 
-	<textarea id="mytextarea"></textarea>
+	<textarea name='myTextArea' id="mytextarea"></textarea>
 	<!-- Button -->
 	<div class="form-group">
 	  <label class="col-md-4 control-label" for="btnSave"></label>
