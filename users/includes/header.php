@@ -151,6 +151,14 @@ if($settings->track_guest == 1 && $user->isLoggedIn()){
 	}
 </script>
 
+<script src="/chimehack4/tinymce/tinymce.min.js"></script>
+<script src="/chimehack4/tinymce/jquery.tinymce.min.js"></script>
+<script type="text/javascript">
+  tinymce.init({
+    selector: '#mytextarea'
+  });
+</script>
+
 <?php require_once $abs_us_root.$us_url_root.'usersc/includes/bootstrap_corrections.php'; ?>
 
 </head>
